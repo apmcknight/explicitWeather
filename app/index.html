@@ -3,19 +3,29 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Server•ily  Template</title>
+    <title>🤬Explicit Weather</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/stylesheets/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./assets/javascripts/main.js"></script>
 </head>
 <body>
-    <!-- Replace With Your Content!t -->
-    <img src="./assets/images/icon.png" alt="Serverly Icon">
-    <h1>Server&nbsp;•&nbsp;ily is Running</h1>
-    <p>
-        Edit codebase in the <code>"./app"</code> directory.
-    </p>
-    <br>
-    <a class="btnLink hvr-underline-center" target="_blank"href="https://apmcknight.github.io/template/">Read the Docs ➜</a>
+   
+    <div class="location">
+        <h1 class="locationTimezone">Timezone</h1>
+        <p>Icon</p>
+    </div>
+   
+    <div class="temperature">
+        <h2 id="city">City</h2>
+        <h2 class="degree">
+            It's currently 45 degrees F
+        </h2>
+        <h2 class="temperatureSaying">
+            That's kind of cold, but not cold enough to give a f*ck.
+        </h2>
+    </div>
+
+    <script src="./assets/javascripts/app.js"></script>
 </body>
 </html>
