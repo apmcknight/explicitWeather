@@ -1,0 +1,23 @@
+@media only screen and (max-width: 786px){
+    body > .temperature{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 0px;
+        color: #fff;
+    }
+
+    .temperature > #data{
+        font-size: 45px;
+        margin-right: 100px;
+    }
+
+    .temperature > #saying{
+        font-size: 25px;
+    }
+
+    .large{
+        font-size: 100px;
+    }
+}
+  

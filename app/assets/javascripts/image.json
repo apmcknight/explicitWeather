@@ -1,0 +1,20 @@
+{
+    "snow": {
+        "image": "../images/snow.jpg"
+    },
+    "clear": {
+        "image": "../images/clear-day.jpg"
+    },
+    "clearNight": {
+        "image": "../images/clear-night.jpg"
+    },
+    "cloudy": {
+        "image": "../images/cloudy.jpg"
+    },
+    "stormy": {
+        "image": "../images/storm.jpg"
+    },
+    "rain": {
+        "image": "../images/rain.jpg"
+    }
+}
