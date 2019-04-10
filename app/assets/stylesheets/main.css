@@ -2,25 +2,38 @@ html, body {
   margin: 0 auto;
   padding: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
-  background: #000;
-}
+  background: #000; }
 
 body > .temperature {
   position: fixed;
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
-  color: #fff;
-}
+  color: #fff; }
 
 .temperature > #data {
   font-size: 75px;
-  margin-right: 100px;
-}
+  margin-right: 100px; }
 
 .temperature > #saying {
-  font-size: 25px;
-}
+  font-size: 25px; }
+
+.error {
+  text-align: center;
+  margin: 0;
+  padding: 100px;
+  height: 100vh;
+  background: #ffffff; }
+
+.error > h1 {
+  padding-top: 50pt;
+  font-size: 100px; }
+
+.error > p {
+  font-size: 20px; }
+
+.error > a {
+  font-weight: bold; }
 
 /* Sweep To Bottom */
 .btnHover {
@@ -33,8 +46,7 @@ body > .temperature {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
+  transition-duration: 0.5s; }
 
 .btnHover:before {
   content: "";
@@ -55,16 +67,13 @@ body > .temperature {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  transition-timing-function: ccubic-bezier(0.86, 0, 0.07, 1);
-}
+  transition-timing-function: ccubic-bezier(0.86, 0, 0.07, 1); }
 
 .btnHover:hover, .btnHover:focus, .btnHover:active {
-  color: #000;
-}
+  color: #000; }
 
 .btnHover:hover:before, .btnHover:focus:before, .btnHover:active:before {
   -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-}
+  transform: scaleY(1); }
 
 /*# sourceMappingURL=main.css.map */
